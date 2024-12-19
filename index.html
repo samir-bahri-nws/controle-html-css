@@ -33,9 +33,7 @@
           <div class="container-prospection-left">
             <div>
               <h1>
-                <span style="font-size: 3.1vw;"
-                  >Lessons and insights<br
-                /></span>
+                <span style="font-size: 3.1vw">Lessons and insights<br /></span>
                 <span class="subtitle-style-text">from 8 years</span>
               </h1>
             </div>
@@ -238,9 +236,7 @@
         const containerLastGray = document.querySelector(
           ".last-container-gray"
         );
-        const containerLastGrayFont = document.querySelector(
-          ".end-text-style"
-        );
+        const containerLastGrayFont = document.querySelector(".end-text-style");
 
         console.log(containerLastGrayFont);
 
@@ -250,26 +246,25 @@
           secondContainer.style.backgroundColor = "white";
           thirdContainer.style.backgroundColor = "white";
           containerLastGray.style.backgroundColor = "rgb(245, 247, 249)";
-          containerLastGrayFont.style.color = "rgb(38, 49, 57)"
+          containerLastGrayFont.style.color = "rgb(38, 49, 57)";
         } else {
           headerContainer.style.backgroundColor = "black";
           firstContainer.style.backgroundColor = "black";
           secondContainer.style.backgroundColor = "black";
           thirdContainer.style.backgroundColor = "black";
           containerLastGray.style.backgroundColor = "black";
-          containerLastGrayFont.style.color = "white"
+          containerLastGrayFont.style.color = "white";
         }
 
-        const collectionTitle = document.getElementsByClassName("simple-text-style");
-        for(var it = 0; it < collectionTitle.length; it++)
-        {
+        const collectionTitle =
+          document.getElementsByClassName("simple-text-style");
+        for (var it = 0; it < collectionTitle.length; it++) {
           if (collectionTitle[it].style.color === "white") {
             collectionTitle[it].style.color = "rgb(113, 113, 113)";
           } else {
             collectionTitle[it].style.color = "white";
           }
         }
-        
       }
     </script>
   </body>
